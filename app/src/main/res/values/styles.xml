@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para botones numéricos -->
+    <style name="BotonCalculadora">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:backgroundTint">#00B8D4</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Estilo para operadores (+, -, *, /) -->
+    <style name="BotonOperador" parent="BotonCalculadora">
+        <item name="android:backgroundTint">#FF9800</item>
+    </style>
+
+    <!-- Estilo para los botones especiales -->
+    <style name="BotonEspecial" parent="BotonCalculadora">
+        <item name="android:backgroundTint">#C51162</item>
+    </style>
+</resources>
